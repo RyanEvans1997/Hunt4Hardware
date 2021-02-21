@@ -14,7 +14,7 @@ const Products = ({products, onAddToCart, category, setCategory, search}) => {
             // console.log(window.location.href.slice(22,));
             setCategory(window.location.href.slice(22,));
         } else {
-            setCategory(window.location.href.slice(47,));
+            setCategory(window.location.href.slice(34,));
         }
     }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
