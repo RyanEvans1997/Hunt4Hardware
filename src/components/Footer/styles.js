@@ -12,7 +12,10 @@ export default makeStyles((theme) => ({
     color: 'white',
     height: '100%',
     '& li': {
-      margin: '15px 0px 15px 0px',
+      marginTop: '15px',
+      marginRight: '0px', 
+      marginBottom: '15px', 
+      marginLeft: '0px',
       maxWidth: '262.5px'
     },
     '& a:hover': {

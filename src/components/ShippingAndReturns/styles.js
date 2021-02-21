@@ -10,7 +10,8 @@ export default makeStyles((theme) => ({
   root: {
     flexGrow: 1,
     boxSizing: 'border-box',
-    marginLeft: '20%',
+    marginLeft: 'auto',
+    marginRight: 'auto',
     maxWidth: '1000px',
     fontFamily: 'Karla, MS Sans Serif, Geneva, sans-serif',
     '& .MuiTypography-root': {

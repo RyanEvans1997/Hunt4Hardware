@@ -151,7 +151,7 @@ const Product = ({ product, onAddToCart, category}) => {
         },
     ]
 
-    console.log(product.assets)
+    // console.log(product.assets)
 
     function Item(props)
     {

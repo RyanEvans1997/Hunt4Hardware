@@ -22,11 +22,11 @@ const AddressForm = ({ checkoutToken, test }) => {
     const subdivisions = Object.entries(shippingSubdivisions).map(([code, name]) => ({id: code, label: name }));
     const options = shippingOptions.map((sO) => ({ id: sO.id, label: `${sO.description} - (${sO.price.formatted_with_symbol})`}))
 
-    console.log(shippingOptions);
+    // console.log(shippingOptions);
 
     const fetchShippingCountries = async (checkoutTokenId) => {
         const { countries } = await commerce.services.localeListShippingCountries(checkoutTokenId);
-        console.log(countries);
+        // console.log(countries);
         setShippingCountries(countries);
         // [AL, AT, BA]
         setShippingCountry(Object.keys(countries)[0]);

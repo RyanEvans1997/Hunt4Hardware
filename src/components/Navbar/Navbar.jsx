@@ -14,7 +14,6 @@ const Navbar = ({totalItems, setSearch}) => {
     const classes = useStyles();
     const location = useLocation();
     const matchesMin = useMediaQuery("(min-width: 720px)");
-    const matchesMax = useMediaQuery("(max-width: 719px)");
     const matchesMax2 = useMediaQuery("(max-width: 670px)");
     let FontSize;
 
